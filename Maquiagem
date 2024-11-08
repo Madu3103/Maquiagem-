@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Vídeos de Maquiagem</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+        }
+        .video-container {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+        }
+        .video {
+            margin: 0 10px;
+            border: 2px solid #ccc;
+            border-radius: 5px;
+            overflow: hidden;
+            background-color: #fff;
+        }
+        iframe {
+            width: 320px;
+            height: 180px;
+        }
+        .description {
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Catálogo de Vídeos de Maquiagem</h1>
+
+    <div class="video-container">
+        <div class="video">
+            <iframe src="https://www.youtube.com/embed/_WSnFKivKhY" 
+                    title="Tutorial de Maquiagem 1" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen></iframe>
+            <div class="description">
+                <h2>Tutorial de Maquiagem 1</h2>
+                <p>Aprenda dicas incríveis de maquiagem para o dia a dia.</p>
+            </div>
+        </div>
+
+        <div class="video">
+            <iframe src="https://www.youtube.com/embed/pp68RJNStZM" 
+                    title="Tutorial de Maquiagem 2" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen></iframe>
+            <div class="description">
+                <h2>Tutorial de Maquiagem 2</h2>
+                <p>Veja como criar um look de festa deslumbrante.</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
